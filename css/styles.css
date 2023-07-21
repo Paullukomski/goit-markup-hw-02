@@ -28,12 +28,13 @@ ul {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
-.header-list:hover {
-  color: #404bbf;
-}
+.header-list:hover,
 .header-list:focus {
   color: #404bbf;
 }
+/* .header-list:focus {
+  color: #404bbf;
+} */
 .header-logo .header-list {
   color: var(--navyblue, #2e2f42);
   /* Body Medium */
