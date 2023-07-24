@@ -1,5 +1,7 @@
 body {
-  font-family: "Roboto", font-family;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 :root {
   --iris: #4d5ae5;
@@ -22,27 +24,29 @@ ul {
   list-style: none;
 }
 
-.header-logo {
+.header-logo [link] {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
 }
 .header-logo-span {
   color: var(--navyblue);
 }
-.header-list {
+.header-list [link] {
   color: var(--navyblue);
   /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 .header-list:hover,
