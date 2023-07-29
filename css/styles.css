@@ -37,7 +37,7 @@ body {
 
 .header-logo-span {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -178,7 +178,7 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
-.hero-button-menu:fokus {
+.hero-button-menu:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
