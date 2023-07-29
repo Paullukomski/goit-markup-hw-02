@@ -52,7 +52,7 @@ body {
 .header-logo-span {
   color: var(--navyblue);
 }
-.header-logo {
+[header-logo] {
   font-family: Raleway, sans-serif;
 }
 .header-description {
