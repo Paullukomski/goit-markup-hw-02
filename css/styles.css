@@ -138,7 +138,7 @@ body {
   letter-spacing: 1.12px;
 }
 .hero-link-btn {
-  color: var(--white);
+  color: var(--color-white);
   cursor: pointer;
   /* Button Text */
   font-family: "Roboto", sans-serif;
@@ -152,7 +152,7 @@ body {
 }
 .hero-link-btn:hover,
 .hero-link-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /*---menu---*/
