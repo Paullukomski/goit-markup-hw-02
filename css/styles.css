@@ -53,7 +53,7 @@ body {
   color: var(--navyblue);
 }
 .header-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 .header-description {
   color: var(--navyblue);
