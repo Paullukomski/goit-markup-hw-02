@@ -28,9 +28,7 @@ body {
   text-decoration: none;
   list-style: none;
 }
-.header-logo {
-  font-family: "Raleway", sans-serif;
-}
+
 .header-list {
   text-decoration: none;
 }
@@ -53,6 +51,9 @@ body {
 
 .header-logo-span {
   color: var(--navyblue);
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
 }
 .header-description {
   color: var(--navyblue);
