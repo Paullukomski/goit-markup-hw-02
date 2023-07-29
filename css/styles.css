@@ -22,6 +22,7 @@ body {
 } */
 .link {
   list-style: none;
+  text-decoration: none;
 }
 .list {
   text-decoration: none;
@@ -37,8 +38,11 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
+
   list-style: none;
+}
+.header-logo-span {
+  text-decoration: none;
 }
 
 .header-logo-span {
@@ -104,6 +108,9 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+.header-contact {
+  text-dekoration: none;
 }
 .header-contact:hover {
   color: #404bbf;
@@ -199,17 +206,17 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .service-text {
-  color: var(--slate);
+  color: var(--color-slate);
   /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /*-----------work-------- */
@@ -225,6 +232,10 @@ body {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+/*---job---*/
+.portfolio-job {
+  text-decoration: none;
 }
 /*-----our time------*/
 .personnel-one {
@@ -296,11 +307,11 @@ body {
 }
 .footer-logo-span {
   color: var(--color-cloud);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
