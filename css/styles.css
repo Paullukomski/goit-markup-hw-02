@@ -31,10 +31,13 @@ body {
 .header-logo {
   font-family: "Raleway", sans-serif;
 }
+.header-list {
+  text-decoration: none;
+}
 
 .header-logo-span {
   color: var(--iris);
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -159,6 +162,7 @@ body {
 .hero-button-menu {
   color: var(--iris);
   text-align: center;
+  cursor: pointer;
   /* Button Text */
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -170,9 +174,13 @@ body {
 .hero-button-menu {
   background-color: #f4f4fd;
 }
-.hero-button-menu:hover,
+.hero-button-menu:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
 .hero-button-menu:fokus {
   color: #ffffff;
+  background-color: #404bbf;
 }
 /*!---portfolio---*/
 .portfolio {
@@ -307,7 +315,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
