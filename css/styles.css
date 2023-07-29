@@ -28,6 +28,9 @@ body {
   text-decoration: none;
   list-style: none;
 }
+.header-logo {
+  font-family: "Raleway", sans-serif;
+}
 
 .header-logo-span {
   color: var(--iris);
@@ -237,6 +240,9 @@ body {
 .portfolio-job {
   text-decoration: none;
 }
+.portfolio-job-photo {
+  text-decoration: none;
+}
 /*-----our time------*/
 .personnel-one {
   background-color: #f4f4fd;
@@ -304,6 +310,9 @@ body {
   line-height: 1.16; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.footer-logotype {
+  font-family: "Raleway", sans-serif;
 }
 .footer-logo-span {
   color: var(--color-cloud);
