@@ -32,7 +32,9 @@ body {
 .header-list {
   text-decoration: none;
 }
-
+.header-logo-span {
+  font-family: "Raleway", sans-serif;
+}
 .header-logo-span {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
@@ -52,9 +54,7 @@ body {
 .header-logo-span {
   color: var(--navyblue);
 }
-[header-logo] {
-  font-family: Raleway, sans-serif;
-}
+
 .header-description {
   color: var(--navyblue);
   /* Body Medium */
@@ -117,7 +117,7 @@ body {
   letter-spacing: 0.02em;
 }
 .header-contact {
-  text-dekoration: none;
+  text-decoration: none;
 }
 .header-contact:hover {
   color: #404bbf;
